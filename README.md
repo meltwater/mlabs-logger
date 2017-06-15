@@ -38,7 +38,7 @@ logTrue()
 
 ```
 $ git clone https://github.com/meltwater/mlabs-logger.git
-$ cd makenew-node-lib
+$ cd mlabs-logger
 $ nvm install
 $ yarn
 ```
@@ -54,14 +54,14 @@ $ yarn run watch:test
 
 ### Source Code
 
-The [makenew-node-lib source] is hosted on GitHub.
+The [mlabs-logger source] is hosted on GitHub.
 Clone the project with
 
 ```
 $ git clone git@github.com:meltwater/mlabs-logger.git
 ```
 
-[makenew-node-lib source]: https://github.com/meltwater/mlabs-logger
+[mlabs-logger source]: https://github.com/meltwater/mlabs-logger
 
 ### Requirements
 
