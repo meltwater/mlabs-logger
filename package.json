@@ -1,16 +1,16 @@
 {
-  "name": "@meltwater/makenew-node-lib",
-  "version": "1.0.1",
-  "description": "npm package skeleton for Meltwater Node.js libraries.",
+  "name": "@meltwater/mlabs-logger",
+  "version": "0.0.0",
+  "description": "Standard logger for mlabs services.",
   "main": "./dist/index.js",
   "module": "./index.js",
   "keywords": [
     "meltwater",
     "node"
   ],
-  "homepage": "https://github.com/meltwater/makenew-node-lib",
-  "bugs": "https://github.com/meltwater/makenew-node-lib/issues",
-  "repository": "meltwater/makenew-node-lib",
+  "homepage": "https://github.com/meltwater/mlabs-logger",
+  "bugs": "https://github.com/meltwater/mlabs-logger/issues",
+  "repository": "meltwater/mlabs-logger",
   "license": "SEE LICENSE IN LICENSE.txt",
   "author": {
     "name": "Evan Sosenko",
