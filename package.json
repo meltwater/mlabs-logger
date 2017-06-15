@@ -89,7 +89,11 @@
   "engines": {
     "node": ">=6.9.5"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bunyan": "^1.8.5",
+    "debug": "^2.4.5",
+    "stream-blackhole": "^1.0.3"
+  },
   "devDependencies": {
     "ava": "^0.19.1",
     "babel-cli": "^6.18.0",

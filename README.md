@@ -20,19 +20,18 @@ $ yarn add @meltwater/mlabs-logger
 
 ## Usage
 
-This package provides an async function which checks if its argument is true.
+Provides a [Bunyan] logger.
 
 ```js
-import isTrue from '@meltwater/mlabs-logger'
+import createLogger from '@mlabs/logger'
 
-const logTrue = async () => {
-  const trueValue = await isTrue(true)
-  console.log(trueValue)
-}
+const log = createLogger({name: 'foo'})
 
-logTrue()
-// true
+log.info({userId: '42'}, 'User: Create')
+log.error({err: new Error('On fire!')}, 'User Create: Fail')
 ```
+
+[Bunyan]: https://github.com/trentm/node-bunyan
 
 ## Development Quickstart
 
