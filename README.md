@@ -2,6 +2,7 @@
 
 [![npm](https://img.shields.io/badge/npm-%40meltwater%2Fmlabs--logger-blue.svg)](https://www.npmjs.com/package/@meltwater/mlabs-logger)
 [![github](https://img.shields.io/badge/github-repo-blue.svg)](https://github.com/meltwater/mlabs-logger)
+[![Codecov](https://img.shields.io/codecov/c/token/uaIHWRZjoy/github/meltwater/mlabs-logger.svg)](https://codecov.io/gh/meltwater/mlabs-logger)
 [![CircleCI](https://circleci.com/gh/meltwater/mlabs-logger.svg?style=shield&circle-token=0ac4375f1f90876828f0b0dbd283d366c8aa38af)](https://circleci.com/gh/meltwater/mlabs-logger)
 
 ## Description
@@ -88,6 +89,13 @@ $ yarn
 [Node.js]: https://nodejs.org/
 [nvm]: https://github.com/creationix/nvm
 
+#### CircleCI
+
+The following environment variables must be set on CircleCI:
+
+- `NPM_TOKEN`: npm token for installing and publishing private packages.
+- `CODECOV_TOKEN`: Codecov token for uploading coverage reports (optional).
+
 ### Tasks
 
 Primary development tasks are defined under `scripts` in `package.json`
@@ -97,6 +105,26 @@ View them with
 ```
 $ yarn run
 ```
+
+#### Examples
+
+Run provided examples with, e.g.,
+
+```
+$ yarn run example -- error | yarn run bunyan
+```
+
+or more compactly with, e.g.,
+
+```
+$ yarn example error | yarn bunyan
+```
+
+##### Requirements
+
+All examples use the following environment variables:
+
+  - `LOG_LEVEL` (optional)
 
 #### Production Build
 
@@ -162,6 +190,24 @@ An HTML version will be saved in `coverage`.
 
 [AVA]: https://github.com/avajs/ava
 [Istanbul]: https://istanbul.js.org/
+
+## Contributing
+
+The author and active contributors may be found in `package.json`,
+
+```
+$ jq .author < package.json
+$ jq .contributors < package.json
+```
+
+To submit a patch:
+
+1. Request repository access by submitting a new issue.
+2. Create your feature branch (`git checkout -b my-new-feature`).
+3. Make changes and write tests.
+4. Commit your changes (`git commit -am 'Add some feature'`).
+5. Push to the branch (`git push origin my-new-feature`).
+6. Create a new Pull Request.
 
 ## License
 

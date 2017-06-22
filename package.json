@@ -20,6 +20,7 @@
     "yarn.lock",
     "index.js",
     "lib",
+    "examples",
     "coverage",
     "dist",
     "docs"
@@ -38,6 +39,7 @@
     "prepackage": "yarn run dist",
     "preversion": "yarn run dist",
     "postversion": "git push && git push --tags",
+    "example": "babel-node examples",
     "format": "standard --fix",
     "report": "nyc report",
     "watch": "gulp watch",
@@ -70,14 +72,10 @@
     }
   },
   "nyc": {
-    "check-coverage": true,
-    "lines": 90,
-    "statements": 90,
-    "functions": 90,
-    "branches": 90,
     "exclude": [
       "**/index.js",
       "dist/**/*.js",
+      "examples/**/*.js",
       "**/*.spec.js"
     ],
     "reporter": [
@@ -99,6 +97,7 @@
     "babel-cli": "^6.18.0",
     "babel-preset-env": "^1.1.4",
     "babel-preset-stage-3": "^6.17.0",
+    "camelcase": "^4.1.0",
     "del-cli": "^1.0.0",
     "gulp": "^3.9.1",
     "gulp-cli": "^1.2.2",
