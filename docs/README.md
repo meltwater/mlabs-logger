@@ -10,7 +10,7 @@ Every function described above is a top-level export.
 You can import any of them like this:
 
 ```js
-import { createLogger } from '@mlabs/logger'
+import { createLogger } from '@meltwater/mlabs-logger'
 ```
 
 ## `createLogger(options)`
