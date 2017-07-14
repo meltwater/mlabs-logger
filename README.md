@@ -2,6 +2,7 @@
 
 [![npm](https://img.shields.io/badge/npm-%40meltwater%2Fmlabs--logger-blue.svg)](https://www.npmjs.com/package/@meltwater/mlabs-logger)
 [![github](https://img.shields.io/badge/github-repo-blue.svg)](https://github.com/meltwater/mlabs-logger)
+[![docs](https://img.shields.io/badge/docs-master-green.svg)](https://github.com/meltwater/mlabs-logger/tree/master/docs)
 [![Codecov](https://img.shields.io/codecov/c/token/uaIHWRZjoy/github/meltwater/mlabs-logger.svg)](https://codecov.io/gh/meltwater/mlabs-logger)
 [![CircleCI](https://circleci.com/gh/meltwater/mlabs-logger.svg?style=shield&circle-token=0ac4375f1f90876828f0b0dbd283d366c8aa38af)](https://circleci.com/gh/meltwater/mlabs-logger)
 
@@ -20,6 +21,8 @@ $ yarn add @meltwater/mlabs-logger
 [yarn]: https://yarnpkg.com/
 
 ## Usage
+
+**See the complete [API documentation](./docs).**
 
 Provides a [Bunyan] logger.
 
@@ -108,6 +111,22 @@ $ yarn run
 
 #### Examples
 
+##### Configuration
+
+Set required and optional configuration options in `examples/local.json`, e.g.,
+
+```json
+{
+  "logLevel": "debug"
+}
+```
+
+or override any options with the corresponding environment variable:
+
+  - `LOG_LEVEL` (optional)
+
+##### Running Locally
+
 Run provided examples with, e.g.,
 
 ```
@@ -120,11 +139,39 @@ or more compactly with, e.g.,
 $ yarn example error | yarn bunyan
 ```
 
-##### Requirements
+Pass arguments to examples with
 
-All examples use the following environment variables:
+```
+$ yarn example error false | yarn bunyan
+```
 
-  - `LOG_LEVEL` (optional)
+In bash or zsh, you may define a convenience function with
+
+```
+$ function yrx () { yarn run example $@ | yarn run bunyan; }
+```
+
+##### Importing
+
+All examples are included with this package,
+create and run one with
+
+```js
+import { createExample } from '@meltwater/mlabs-logger'
+
+// createExample(exampleName, options)(...args)
+createExample('error')().catch(err => { console.error(err) })
+```
+
+or import them directly with
+
+```js
+import { examples } from '@meltwater/mlabs-logger'
+
+const error = examples.error()
+
+error().then(data => { console.log(data) }).catch(err => { console.error(err) })
+```
 
 #### Production Build
 
