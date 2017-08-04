@@ -39,7 +39,7 @@ $ yarn example error | yarn bunyan
 Pass arguments to examples with
 
 ```
-$ yarn run example error false | yarn bunyan
+$ yarn run example error fire | yarn bunyan
 ```
 
 Automatically watch and rerun an example on changes with, e.g.,
