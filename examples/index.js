@@ -8,7 +8,7 @@ import { camelCase, paramCase } from 'change-case'
 import createLogger from '../lib'
 import error from './error'
 
-const examples = {
+export const examples = {
   error
 }
 
