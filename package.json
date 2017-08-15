@@ -96,7 +96,7 @@
   "dependencies": {
     "bunyan": "^1.8.5",
     "change-case": "^3.0.1",
-    "debug": "^2.4.5",
+    "debug": "^3.0.0",
     "stream-blackhole": "^1.0.3"
   },
   "devDependencies": {
