@@ -100,7 +100,9 @@ Create and run an example with
 import { createExample } from '@meltwater/mlabs-logger'
 
 // createExample(exampleName, options)(...args)
-createExample('error')().catch(err => { console.error(err) })
+createExample('error')()
+  .then(data => { console.log(data) })
+  .catch(err => { console.error(err) })
 ```
 
 or import them directly with
@@ -110,7 +112,9 @@ import { examples } from '@meltwater/mlabs-logger'
 
 const error = examples.error()
 
-error().then(data => { console.log(data) }).catch(err => { console.error(err) })
+error()
+  .then(data => { console.log(data) })
+  .catch(err => { console.error(err) })
 ```
 
 ## Writing New Examples
