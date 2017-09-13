@@ -13,7 +13,8 @@ You can import any of them like this:
 import { createLogger } from '@meltwater/mlabs-logger'
 ```
 
-## `createLogger(options)`
+---
+### `createLogger(options)`
 
 Returns a new [Bunyan] logger.
 

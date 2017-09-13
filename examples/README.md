@@ -90,7 +90,7 @@ All examples are included with this package as importable modules.
 
 _Imported examples are not supported as a stable API._
 
-_Some examples may use devDependencies, e.g., bunyan,
+_Some examples may use devDependencies
 which need to be installed as dependencies
 by any package which imports them._
 
@@ -119,7 +119,10 @@ error()
 
 ## Writing New Examples
 
-1. Create a new file in `examples`.
+1. Create a new file in `examples` or add an example to an existing file.
+   Any new dependencies which are only used
+   in examples should be installed as devDependencies.
+   The return value of the function will be logged as `data`.
    All exported functions can take options and arguments with defaults, e.g.,
 
    ```js
@@ -153,8 +156,26 @@ error()
    ```js
    /* examples/index.js */
    const envVars = [
-     'LOG_LEVEL',
      'FOO_API',
      // ...
    ]
    ```
+
+   ````
+   /* examples/README.md */
+   ### Local configuration
+
+   Set required and optional configuration options in `examples/local.json`, e.g.,
+
+   ```json
+   {
+     "queryApi": "https://example.com",
+     ...
+   }
+   ```
+
+   Override any option with the corresponding environment variable:
+
+     - QUERY_API
+     - ...
+   ````
