@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.10] / 2017-09-14
+
+### Changed
+
+- Update to [makenew-node-lib] v2.3.5.
+
 ## [2.0.9] / 2017-08-28
 
 ### Changed
@@ -95,7 +101,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 [makenew-node-lib]: https://github.com/meltwater/makenew-node-lib
 
-[Unreleased]: https://github.com/meltwater/mlabs-logger/compare/v2.0.9...HEAD
+[Unreleased]: https://github.com/meltwater/mlabs-logger/compare/v2.0.10...HEAD
+[2.0.10]: https://github.com/meltwater/mlabs-logger/compare/v2.0.9...v2.0.10
 [2.0.9]: https://github.com/meltwater/mlabs-logger/compare/v2.0.8...v2.0.9
 [2.0.8]: https://github.com/meltwater/mlabs-logger/compare/v2.0.7...v2.0.8
 [2.0.7]: https://github.com/meltwater/mlabs-logger/compare/v2.0.6...v2.0.7
