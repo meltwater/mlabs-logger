@@ -94,8 +94,8 @@
     "node": ">=6.9.5"
   },
   "dependencies": {
+    "@meltwater/examplr": "^1.0.0",
     "bunyan": "^1.8.12",
-    "change-case": "^3.0.1",
     "debug": "^3.0.0",
     "stream-blackhole": "^1.0.3"
   },
@@ -117,7 +117,7 @@
     "nodemon": "^1.11.0",
     "npm-run-all": "^4.0.0",
     "nyc": "^11.0.2",
-    "source-map-support": "^0.4.15",
+    "source-map-support": "^0.5.0",
     "standard": "^10.0.2"
   }
 }

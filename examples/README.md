@@ -14,7 +14,7 @@ Set required and optional configuration options in `examples/local.json`, e.g.,
 
 Override any option with the corresponding environment variable:
 
-  - `LOG_LEVEL` (optional)
+- `LOG_LEVEL` (optional)
 
 ### Running examples with arguments
 
@@ -176,6 +176,6 @@ error()
 
    Override any option with the corresponding environment variable:
 
-     - QUERY_API
-     - ...
+   - QUERY_API
+   - ...
    ````
