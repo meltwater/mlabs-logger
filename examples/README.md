@@ -84,39 +84,6 @@ yrxi () { yarn run example:inspect $@ | yarn run bunyan; }
 yrxiw () { yarn run example:inspect:watch $@ | yarn run bunyan; }
 ```
 
-## Importing Examples as Modules
-
-All examples are included with this package as importable modules.
-
-_Imported examples are not supported as a stable API._
-
-_Examples use some devDependencies
-which need to be installed as dependencies
-by any package which imports them._
-
-Create and run an example with
-
-```js
-import { createExample } from '@meltwater/mlabs-logger'
-
-// createExample(exampleName, options)(...args)
-createExample('error')()
-  .then(data => { console.log(data) })
-  .catch(err => { console.error(err) })
-```
-
-or import them directly with
-
-```js
-import { examples } from '@meltwater/mlabs-logger'
-
-const error = examples.error()
-
-error()
-  .then(data => { console.log(data) })
-  .catch(err => { console.error(err) })
-```
-
 ## Writing New Examples
 
 1. Create a new file in `examples` or add an example to an existing file.
