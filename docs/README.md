@@ -23,6 +23,10 @@ Returns a new [Bunyan] logger.
 1. `options` (*object*): Options to pass to [Bunyan].
     Also supports the following custom options.
     - `name`: The name of the logger. Default is `mlabs`.
+    - `t`: The [AVA] test object.
+      When provided, all logging output will be passed to `t.log`.
+      Optionally, set `t.context.logOutputMode` to select a format
+      supported by [bunyan-formatter].
     - `logAppId` (*boolean*): Log `appid` as the `name`.
       Default is `false`.
     - `noop` (*boolean*): Log all output to [debug]
@@ -34,5 +38,7 @@ Returns a new [Bunyan] logger.
 
 (*object*): The [Bunyan] logger.
 
+[AVA]: https://github.com/avajs/ava
 [Bunyan]: https://github.com/trentm/node-bunyan
+[bunyan-formatter]: https://www.npmjs.com/package/bunyan-formatter
 [debug]: https://github.com/visionmedia/debug
