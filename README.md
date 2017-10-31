@@ -34,7 +34,7 @@ $ yarn add @meltwater/mlabs-logger
 Provides a [Bunyan] logger.
 
 ```js
-import createLogger from '@mlabs/logger'
+import createLogger from '@meltwater/mlabs-logger'
 
 const log = createLogger({name: 'foo'})
 
@@ -44,19 +44,25 @@ log.error({err: new Error('On fire!')}, 'User Create: Fail')
 
 ### Use in AVA tests
 
-Assuming `Foo` takes a logger,
-the following will send all log output to [AVA]'s `t.log` method.
-The log level can be overridden by setting the `LOG_LEVEL` environment variable.
+Simply pass `t` as an option to `createLogger`
+to send all log output to [AVA's][AVA] `t.log` method.
+
+Override the log level by setting the `LOG_LEVEL` environment variable.
+Override the log output mode by either passing `outputMode`
+or setting the `LOG_OUTPUT_MODE` environment variable.
+The mode may be any mode supported by [bunyan-formatter]
+(`short`, `long`, `simple`, `json`, or `bunyan`).
+
+For example, assuming `Foo` takes a logger,
 
 ```js
 import test from 'ava'
-import createLogger from '@mlabs/logger'
+import createLogger from '@meltwater/mlabs-logger'
 
 import Foo from './foo'
 
 test.beforeEach(t => {
   t.context.foo = new Foo({log: createLogger({t})})
-  t.context.logOutputMode = 'short'
 })
 
 test('does bar', t => {
@@ -66,6 +72,7 @@ test('does bar', t => {
 ```
 
 [Bunyan]: https://github.com/trentm/node-bunyan
+[bunyan-formatter]: https://www.npmjs.com/package/bunyan-formatter
 
 ## Development Quickstart
 
