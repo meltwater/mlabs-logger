@@ -42,6 +42,29 @@ log.info({userId: '42'}, 'User: Create')
 log.error({err: new Error('On fire!')}, 'User Create: Fail')
 ```
 
+### Use in AVA tests
+
+Assuming `Foo` takes a logger,
+the following will send all log output to [AVA]'s `t.log` method.
+The log level can be overridden by setting the `LOG_LEVEL` environment variable.
+
+```js
+import test from 'ava'
+import createLogger from '@mlabs/logger'
+
+import Foo from './foo'
+
+test.beforeEach(t => {
+  t.context.foo = new Foo({log: createLogger({t})})
+  t.context.logOutputMode = 'short'
+})
+
+test('does bar', t => {
+  const bar = t.context.foo.bar()
+  t.true(bar)
+})
+```
+
 [Bunyan]: https://github.com/trentm/node-bunyan
 
 ## Development Quickstart
