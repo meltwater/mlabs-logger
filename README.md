@@ -61,11 +61,8 @@ import createLogger from '@meltwater/mlabs-logger'
 
 import Foo from './foo'
 
-test.beforeEach(t => {
-  t.context.foo = new Foo({log: createLogger({t})})
-})
-
 test('does bar', t => {
+  const foo = new Foo({log: createLogger({t})})
   const bar = t.context.foo.bar()
   t.true(bar)
 })
