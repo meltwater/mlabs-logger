@@ -23,8 +23,10 @@ Returns a new [Bunyan] logger.
 1. `options` (*object*): Options to pass to [Bunyan].
     Also supports the following custom options.
     - `name`: The name of the logger. Default is `mlabs`.
-    - `t`: The [AVA] test object.
+    - `t`: The [AVA] test object to use if running tests.
       When provided, all logging output will be passed to `t.log`.
+      In this mode, the log level may be set
+      via the environment variable `LOG_LEVEL`.
       Optionally, set `t.context.logOutputMode` to select a format
       supported by [bunyan-formatter].
     - `logAppId` (*boolean*): Log `appid` as the `name`.
