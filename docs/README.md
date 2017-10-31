@@ -29,6 +29,7 @@ Returns a new [Bunyan] logger.
       via the environment variable `LOG_LEVEL`.
     - `outputMode` (*string*): Select a [bunyan-formatter] output format to use for tests.
       Only used when `t` is set.
+      Override by setting the environment variable `LOG_OUTPUT_MODE`.
       Default is `short`.
     - `logAppId` (*boolean*): Log `appid` as the `name`.
       Default is `false`.
