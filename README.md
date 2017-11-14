@@ -63,7 +63,7 @@ import Foo from './foo'
 
 test('does bar', t => {
   const foo = new Foo({log: createLogger({t})})
-  const bar = t.context.foo.bar()
+  const bar = foo.bar()
   t.true(bar)
 })
 ```
