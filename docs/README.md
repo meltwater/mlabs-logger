@@ -31,8 +31,6 @@ Returns a new [Bunyan] logger.
       Only used when `t` is set.
       Override by setting the environment variable `LOG_OUTPUT_MODE`.
       Default is `short`.
-    - `logAppId` (*boolean*): Log `appid` as the `name`.
-      Default is `false`.
     - `noop` (*boolean*): Log all output to [debug]
       with the namespace set to the logger `name`.
       This suppresses all output unless the `DEBUG` environment variable is set.
