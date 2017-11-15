@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 - (**Breaking**) Build for Node.js LTS Carbon:
   drop support for Node versions less than 8.9.0.
+- Update to [makenew-node-lib] v4.1.1.
 
 ## [2.1.0] / 2017-10-31
 
