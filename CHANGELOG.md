@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.1.0] / 2017-11-15
+
+### Added
+
+- Update to [makenew-node-lib] v4.1.3.
+
+### Removed
+
+- The `logAppId` option is unnecessary, was unused, and has been removed.
+
 ## [3.0.1] / 2017-11-14
 
 ### Changed
