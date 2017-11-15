@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.0.0] / 2017-11-14
+
+### Changed
+
+- (**Breaking**) Build for Node.js LTS Carbon:
+  drop support for Node versions less than 8.9.0.
+
 ## [2.1.0] / 2017-10-31
 
 ### Added
@@ -117,7 +124,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 [makenew-node-lib]: https://github.com/meltwater/makenew-node-lib
 
-[Unreleased]: https://github.com/meltwater/mlabs-logger/compare/v2.1.0...HEAD
+[Unreleased]: https://github.com/meltwater/mlabs-logger/compare/v3.0.0...HEAD
+[3.0.0]: https://github.com/meltwater/mlabs-logger/compare/v2.1.0...v3.0.0
 [2.1.0]: https://github.com/meltwater/mlabs-logger/compare/v2.0.11...v2.1.0
 [2.0.11]: https://github.com/meltwater/mlabs-logger/compare/v2.0.10...v2.0.11
 [2.0.10]: https://github.com/meltwater/mlabs-logger/compare/v2.0.9...v2.0.10
