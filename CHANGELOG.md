@@ -141,7 +141,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 [makenew-node-lib]: https://github.com/meltwater/makenew-node-lib
 
-[Unreleased]: https://github.com/meltwater/mlabs-logger/compare/v3.0.1...HEAD
+[Unreleased]: https://github.com/meltwater/mlabs-logger/compare/v3.1.0...HEAD
+[3.1.0]: https://github.com/meltwater/mlabs-logger/compare/v3.0.1...v3.1.0
 [3.0.1]: https://github.com/meltwater/mlabs-logger/compare/v3.0.0...v3.0.1
 [3.0.0]: https://github.com/meltwater/mlabs-logger/compare/v2.1.0...v3.0.0
 [2.1.0]: https://github.com/meltwater/mlabs-logger/compare/v2.0.11...v2.1.0
