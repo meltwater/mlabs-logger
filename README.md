@@ -8,7 +8,12 @@
 
 ## Description
 
-Standard logger for mlabs services.
+Standard logger for mlabs services
+Logs structured JSON logging to stdout with [Bunyan].
+Integrates well with [AVA] tests.
+
+[AVA]: https://github.com/avajs/ava
+[Bunyan]: https://github.com/trentm/node-bunyan
 
 ## Installation
 
@@ -68,7 +73,6 @@ test('does bar', t => {
 })
 ```
 
-[Bunyan]: https://github.com/trentm/node-bunyan
 [bunyan-formatter]: https://www.npmjs.com/package/bunyan-formatter
 
 ## Development Quickstart
@@ -250,7 +254,6 @@ Watch and restart the debugging session on changes with
 $ yarn run ava:inspect:watch lib/true.spec.js
 ```
 
-[AVA]: https://github.com/avajs/ava
 [Codecov]: https://codecov.io/
 [Istanbul]: https://istanbul.js.org/
 
