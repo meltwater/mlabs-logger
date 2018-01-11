@@ -9,7 +9,8 @@
 ## Description
 
 Standard logger for mlabs services
-Logs structured JSON logging to stdout with [Bunyan].
+
+Logs structured JSON to stdout with [Bunyan].
 Integrates well with [AVA] tests.
 
 [AVA]: https://github.com/avajs/ava
