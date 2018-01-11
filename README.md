@@ -8,7 +8,7 @@
 
 ## Description
 
-Standard logger for mlabs services
+Standard logger for mlabs services.
 
 Logs structured JSON to stdout with [Bunyan].
 Integrates well with [AVA] tests.
