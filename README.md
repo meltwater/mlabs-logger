@@ -1,5 +1,7 @@
 # Logger
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/meltwater/mlabs-logger.svg?token=1f87b6a25a53453bee29789f999a4923398c7783e5b0d431f7220bd67d20acae&ts=1516112292140)](https://greenkeeper.io/)
+
 [![npm](https://img.shields.io/badge/npm-%40meltwater%2Fmlabs--logger-blue.svg)](https://www.npmjs.com/package/@meltwater/mlabs-logger)
 [![github](https://img.shields.io/badge/github-repo-blue.svg)](https://github.com/meltwater/mlabs-logger)
 [![docs](https://img.shields.io/badge/docs-master-green.svg)](https://github.com/meltwater/mlabs-logger/tree/master/docs)
