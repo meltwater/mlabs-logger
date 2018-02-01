@@ -12,6 +12,7 @@
 Standard logger for mlabs services.
 
 Logs structured JSON to stdout with [Pino].
+Detects and optimizes for production or development mode.
 Integrates well with [AVA] tests.
 
 [AVA]: https://github.com/avajs/ava

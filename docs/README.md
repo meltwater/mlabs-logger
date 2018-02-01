@@ -18,8 +18,7 @@ import { createLogger } from '@meltwater/mlabs-logger'
 
 Returns a new [Pino] logger.
 
-For a production logger, do not set
-`outputMode`, `outputFilter`, `t`, or `noop`.
+To use the production logger, do not set `outputMode`, `t`, or `noop`.
 
 #### Arguments
 
@@ -31,6 +30,7 @@ For a production logger, do not set
     - `outputFilter` (*function*): Output filter to use.
       The function will receive the log message object
       and should return `true` if the log should be printed, `false` otherwise.
+      This option is ignored when using the production logger.
       Default is no filter.
     - `noop` (*boolean*): Log all output to [debug]
       with the namespace set to the logger `name`.
