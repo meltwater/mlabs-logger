@@ -25,8 +25,12 @@ To use the production logger, do not set `outputMode`, `t`, or `noop`.
 1. `options` (*object*): Options to pass to [Pino].
     Also supports the following custom options.
     - `name`: The name of the logger. Default is `mlabs`.
-    - `outputMode` (*string*): Select a output format to use.
-      Default is `json`.
+    - `outputMode` (*string*): Select an output format to use.
+      May be either `null` (Pino default output),
+      `pretty` (the Pino pretty formatter),
+      or any mode supported by [bunyan-formatter]:
+      `short`, `long`, `simple`, or `bunyan`.
+      Default is `null`.
     - `outputFilter` (*function*): Output filter to use.
       The function will receive the log message object
       and should return `true` if the log should be printed, `false` otherwise.
