@@ -11,11 +11,11 @@
 
 Standard logger for mlabs services.
 
-Logs structured JSON to stdout with [Bunyan].
+Logs structured JSON to stdout with [Pino].
 Integrates well with [AVA] tests.
 
 [AVA]: https://github.com/avajs/ava
-[Bunyan]: https://github.com/trentm/node-bunyan
+[Pino]: https://github.com/pinojs/pino
 
 ## Installation
 
@@ -38,7 +38,7 @@ $ yarn add @meltwater/mlabs-logger
 
 **See the complete [API documentation](./docs) and [working examples](./examples).**
 
-Provides a [Bunyan] logger.
+Provides a [Pino] logger.
 
 ```js
 import createLogger from '@meltwater/mlabs-logger'
@@ -57,8 +57,8 @@ to send all log output to [AVA's][AVA] `t.log` method.
 Override the log level by setting the `LOG_LEVEL` environment variable.
 Override the log output mode by either passing `outputMode`
 or setting the `LOG_OUTPUT_MODE` environment variable.
-The mode may be any mode supported by [bunyan-formatter]
-(`short`, `long`, `simple`, `json`, or `bunyan`).
+The mode may be any mode supported by [bunyan-formatter]:
+`short` (default), `long`, `simple`, `json`, or `bunyan`.
 
 For example, assuming `Foo` takes a logger,
 

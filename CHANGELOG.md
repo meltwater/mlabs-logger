@@ -5,9 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [3.1.0] / 2017-11-15
+## [4.0.0] / 2017-01-31
 
 ### Added
+
+- Filter log messages in development with `logFilter` option.
+
+### Changed
+
+- (**Breaking**) Replace Bunyan with [Pino].
+- Update to [makenew-node-lib] v4.3.2.
+
+## [3.1.0] / 2017-11-15
+
+### Changed
 
 - Update to [makenew-node-lib] v4.1.3.
 
@@ -140,8 +151,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Initial release.
 
 [makenew-node-lib]: https://github.com/meltwater/makenew-node-lib
+[Pino]: https://github.com/pinojs/pino
 
-[Unreleased]: https://github.com/meltwater/mlabs-logger/compare/v3.1.0...HEAD
+[Unreleased]: https://github.com/meltwater/mlabs-logger/compare/v4.0.0...HEAD
+[4.0.0]: https://github.com/meltwater/mlabs-logger/compare/v3.1.0...v4.0.0
 [3.1.0]: https://github.com/meltwater/mlabs-logger/compare/v3.0.1...v3.1.0
 [3.0.1]: https://github.com/meltwater/mlabs-logger/compare/v3.0.0...v3.0.1
 [3.0.0]: https://github.com/meltwater/mlabs-logger/compare/v2.1.0...v3.0.0
