@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.0.3] / 2017-02-01
+
+### Fixed
+
+- Cases where `outputMode` was ignored.
+
 ## [4.0.2] / 2017-02-01
 
 ### Fixed
@@ -166,6 +172,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 [Pino]: https://github.com/pinojs/pino
 
 [Unreleased]: https://github.com/meltwater/mlabs-logger/compare/v4.0.2...HEAD
+[4.0.3]: https://github.com/meltwater/mlabs-logger/compare/v4.0.2...v4.0.3
 [4.0.2]: https://github.com/meltwater/mlabs-logger/compare/v4.0.1...v4.0.2
 [4.0.1]: https://github.com/meltwater/mlabs-logger/compare/v4.0.0...v4.0.1
 [4.0.0]: https://github.com/meltwater/mlabs-logger/compare/v3.1.0...v4.0.0
