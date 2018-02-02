@@ -25,6 +25,9 @@ To use the production logger, do not set `outputMode`, `t`, or `noop`.
 1. `options` (*object*): Options to pass to [Pino].
     Also supports the following custom options.
     - `name`: The name of the logger. Default is `mlabs`.
+    - `base`: Properties to add to the base logger.
+      Will be merged with the default ones added by Pino.
+      Default: no extra properties.
     - `outputMode` (*string*): Select an output format to use.
       May be either `null` (Pino default output),
       `pretty` (the Pino pretty formatter),
