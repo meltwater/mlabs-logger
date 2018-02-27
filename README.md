@@ -3,7 +3,6 @@
 [![npm](https://img.shields.io/badge/npm-%40meltwater%2Fmlabs--logger-blue.svg)](https://www.npmjs.com/package/@meltwater/mlabs-logger)
 [![github](https://img.shields.io/badge/github-repo-blue.svg)](https://github.com/meltwater/mlabs-logger)
 [![docs](https://img.shields.io/badge/docs-master-green.svg)](https://github.com/meltwater/mlabs-logger/tree/master/docs)
-[![Greenkeeper](https://badges.greenkeeper.io/meltwater/mlabs-logger.svg?token=1f87b6a25a53453bee29789f999a4923398c7783e5b0d431f7220bd67d20acae&ts=1516112292140)](https://greenkeeper.io/)
 [![Codecov](https://img.shields.io/codecov/c/token/uaIHWRZjoy/github/meltwater/mlabs-logger.svg)](https://codecov.io/gh/meltwater/mlabs-logger)
 [![CircleCI](https://circleci.com/gh/meltwater/mlabs-logger.svg?style=shield&circle-token=0ac4375f1f90876828f0b0dbd283d366c8aa38af)](https://circleci.com/gh/meltwater/mlabs-logger)
 
