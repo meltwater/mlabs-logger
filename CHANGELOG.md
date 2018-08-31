@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [5.0.0] / 2018-8-30
+
+### Changed
+
+- Update pino from v4 to v5.
+- Update to [makenew-node-lib] v4.7.2.
+
 ## [4.1.1] / 2018-03-29
 
 ### Fixed
@@ -197,7 +204,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 [makenew-node-lib]: https://github.com/meltwater/makenew-node-lib
 [Pino]: https://github.com/pinojs/pino
 
-[Unreleased]: https://github.com/meltwater/mlabs-logger/compare/v4.1.1...HEAD
+[Unreleased]: https://github.com/meltwater/mlabs-logger/compare/v5.0.0...HEAD
+[5.0.0]: https://github.com/meltwater/mlabs-logger/compare/v4.1.1...v5.0.0
 [4.1.1]: https://github.com/meltwater/mlabs-logger/compare/v4.1.0...v4.1.1
 [4.1.0]: https://github.com/meltwater/mlabs-logger/compare/v4.0.3...v4.1.0
 [4.0.3]: https://github.com/meltwater/mlabs-logger/compare/v4.0.2...v4.0.3
