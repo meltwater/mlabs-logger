@@ -107,7 +107,7 @@
     "@meltwater/examplr": "^4.1.4",
     "bunyan-formatter": "^1.0.0",
     "debug": "^3.0.0",
-    "pino": "^4.15.3"
+    "pino": "^5.4.0"
   },
   "devDependencies": {
     "ava": "^0.25.0",
