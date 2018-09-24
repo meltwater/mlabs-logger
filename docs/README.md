@@ -3,6 +3,7 @@
 ## Top-Level Exports
 
 - [`createLogger(options)`](#createloggeroptions)
+- [`final`][#final]
 
 ### Importing
 
@@ -53,7 +54,13 @@ To use the production logger, do not set `outputMode`, `t`, or `noop`.
 
 (*object*): The [Pino] logger.
 
+---
+### final
+
+The [`final` method from Pino][pino.final].
+
 [AVA]: https://github.com/avajs/ava
 [Pino]: https://github.com/pinojs/pino
+[pino.final]: https://github.com/pinojs/pino/blob/master/docs/api.md#pinofinallogger-handler--function--finallogger
 [bunyan-formatter]: https://www.npmjs.com/package/bunyan-formatter
 [debug]: https://github.com/visionmedia/debug
