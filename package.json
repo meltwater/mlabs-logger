@@ -99,7 +99,7 @@
   "dependencies": {
     "@meltwater/examplr": "^4.2.0",
     "bunyan-formatter": "^1.0.0",
-    "debug": "^3.0.0",
+    "debug": "^4.0.1",
     "pino": "^5.4.0"
   },
   "devDependencies": {
