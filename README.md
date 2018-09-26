@@ -90,7 +90,7 @@ Run each command below in a separate terminal window:
 
 ```
 $ yarn run watch
-$ yarn run watch:test
+$ yarn run test:watch
 ```
 
 ## Development and Testing
@@ -245,7 +245,7 @@ and coverage is reported by [Istanbul] and uploaded to [Codecov].
 Watch and run tests on changes with
 
 ```
-$ yarn run watch:test
+$ yarn run test:watch
 ```
 
 If using [AVA snapshot testing], update snapshots with
