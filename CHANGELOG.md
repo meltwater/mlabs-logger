@@ -5,13 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
-## [5.1.1]
+## [5.1.1] / 2018-09-26
 
 ### Changed
 
 - Update to debug v4.
 
-## [5.1.0]
+## [5.1.0] / 2018-09-26
 
 ### Added
 
