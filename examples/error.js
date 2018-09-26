@@ -6,9 +6,9 @@ export default options => async (error = 'On fire.') => {
     outputFilter: log => log.foo !== 'bar'
   })
   try {
-    log.info({foo: 'bar'}, 'FooBar')
+    log.info({ foo: 'bar' }, 'FooBar')
     throw new Error(error)
   } catch (err) {
-    log.error({err}, 'Do Foo: Fail')
+    log.error({ err }, 'Do Foo: Fail')
   }
 }
