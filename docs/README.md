@@ -3,7 +3,9 @@
 ## Top-Level Exports
 
 - [`createLogger(options)`](#createloggeroptions)
-- [`final`][#final]
+- [`destination`](#destination)
+- [`extreme`](#extreme)
+- [`final`](#final)
 
 ### Importing
 
