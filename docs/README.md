@@ -55,6 +55,16 @@ To use the production logger, do not set `outputMode`, `t`, or `noop`.
 (*object*): The [Pino] logger.
 
 ---
+### destination
+
+The [`destination` method from Pino][pino.destination].
+
+---
+### extreme
+
+The [`extreme` method from Pino][pino.extreme].
+
+---
 ### final
 
 The [`final` method from Pino][pino.final].
