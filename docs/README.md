@@ -29,6 +29,13 @@ To use the production logger, do not set `outputMode`, `t`, or `noop`.
     - `base`: Properties to add to the base logger.
       Will be merged with the default ones added by Pino.
       Default: no extra properties.
+    - `useExtreme` (*boolean*): Use the `extreme` destination.
+      Overrides `createDestination` below. Only used in production.
+      Default: `false`.
+    - `createDestination` (*function*): Function that returns a valid
+      pino [destination parameter] to use in production.
+      If null, this options will be ignored.
+      Default: `null`.
     - `outputMode` (*string*): Select an output format to use.
       May be either `null` (Pino default output),
       `pretty` (the Pino pretty formatter),
@@ -71,6 +78,8 @@ The [`final` method from Pino][pino.final].
 
 [AVA]: https://github.com/avajs/ava
 [Pino]: https://github.com/pinojs/pino
-[pino.final]: https://github.com/pinojs/pino/blob/master/docs/api.md#pinofinallogger-handler--function--finallogger
+[pino.extreme]: https://getpino.io/#/docs/api?id=pinoextremetarget-gt-sonicboom
+[pino.destination]: https://getpino.io/#/docs/api?id=pino-destination
+[pino.final]: https://getpino.io/#/docs/api?id=pinofinallogger-handler-gt-function-finallogger
 [bunyan-formatter]: https://www.npmjs.com/package/bunyan-formatter
 [debug]: https://github.com/visionmedia/debug
