@@ -106,7 +106,7 @@
     "node": ">=10.13.0"
   },
   "dependencies": {
-    "@meltwater/examplr": "^4.2.1",
+    "@meltwater/examplr": "^4.3.0",
     "bunyan-formatter": "^1.0.0",
     "debug": "^4.0.1",
     "pino": "^5.12.0"
