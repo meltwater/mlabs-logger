@@ -8,6 +8,7 @@ export const examples = {
   error
 }
 
+// prettier-ignore
 const envVars = [
   'LOG_LEVEL',
   'LOG_FILTER',
