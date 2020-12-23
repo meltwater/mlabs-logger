@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [7.0.1] / 2020-12-23
+
+### Fixed
+
+- Bad internal import path.
+
 ## [7.0.0] / 2020-12-23
 
 ### Changed
@@ -274,7 +280,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 [makenew-node-lib]: https://github.com/meltwater/makenew-node-lib
 [Pino]: https://github.com/pinojs/pino
 
-[Unreleased]: https://github.com/meltwater/mlabs-logger/compare/v7.0.0...HEAD
+[Unreleased]: https://github.com/meltwater/mlabs-logger/compare/v7.0.1...HEAD
+[7.0.1]: https://github.com/meltwater/mlabs-logger/compare/v7.0.0...v7.0.1
 [7.0.0]: https://github.com/meltwater/mlabs-logger/compare/v6.1.1...v7.0.0
 [6.1.1]: https://github.com/meltwater/mlabs-logger/compare/v6.1.0...v6.1.1
 [6.1.0]: https://github.com/meltwater/mlabs-logger/compare/v6.0.0...v6.1.0
