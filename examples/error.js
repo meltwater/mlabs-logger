@@ -1,4 +1,4 @@
-import { createLogger } from '../lib'
+import { createLogger } from '../index.js'
 
 export default (options) => async (error = 'On fire.') => {
   const log = createLogger({

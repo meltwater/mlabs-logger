@@ -2,7 +2,7 @@ import path from 'path'
 
 import createExamples from '@meltwater/examplr'
 
-import error from './error'
+import error from './error.js'
 
 export const examples = {
   error
