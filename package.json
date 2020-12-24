@@ -1,6 +1,6 @@
 {
   "name": "@meltwater/mlabs-logger",
-  "version": "7.0.1",
+  "version": "8.0.0-alpha.0",
   "description": "Standard logger for mlabs services.",
   "type": "module",
   "main": "dist/index.cjs",
