@@ -7,12 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [8.0.0] / 2020-12-24
 
-### Changed
+### Added
 
 - Publish as both ES and CommonJS module.
-- (**Breaking**) The `default` export is removed.
+
+### Changed
+
 - (**Breaking**) Use Conditional Exports to provide ES or CommonJS module.
   Cannot import or require internal paths.
+
+### Removed
+
+- (**Breaking**) The `default` export.
 
 ## [7.0.1] / 2020-12-23
 
