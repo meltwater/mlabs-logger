@@ -41,7 +41,7 @@ $ yarn add @meltwater/mlabs-logger
 Provides a [Pino] logger.
 
 ```js
-import createLogger from '@meltwater/mlabs-logger'
+import { createLogger } from '@meltwater/mlabs-logger'
 
 const log = createLogger({name: 'foo'})
 
@@ -64,7 +64,7 @@ For example, assuming `Foo` takes a logger,
 
 ```js
 import test from 'ava'
-import createLogger from '@meltwater/mlabs-logger'
+import { createLogger } from '@meltwater/mlabs-logger'
 
 import Foo from './foo'
 
