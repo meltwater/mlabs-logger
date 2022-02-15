@@ -121,10 +121,10 @@
     "standard": "^16.0.2"
   },
   "dependencies": {
-    "@meltwater/examplr": "^6.0.0",
+    "@meltwater/examplr": "^7.0.0",
     "bunyan-formatter": "^1.0.0",
     "debug": "^4.0.1",
-    "pino": "^6.3.2"
+    "pino": "^7.6.5"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
