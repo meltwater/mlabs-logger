@@ -14,6 +14,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
     for previous versions of both this library and Pino.
   - If you were using `useExtreme` in version 8 or earlier,
     you can use `useAsync` as a replacement for extreme mode.
+  - The `useExtreme` option has been added back as an alias for `useAsync`
+    with a deprecation warning and will be removed in the next major version.
 
 ## [9.0.0] / 2022-02-14
 
