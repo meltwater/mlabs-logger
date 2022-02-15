@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [9.1.1] / 2022-02-14
+
+### Changed
+
+- Allow using pino-pretty with AVA.
+
 ## [9.1.0] / 2022-02-14
 
 ### Added
@@ -319,7 +325,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 [makenew-node-lib]: https://github.com/meltwater/makenew-node-lib
 [Pino]: https://github.com/pinojs/pino
 
-[Unreleased]: https://github.com/meltwater/mlabs-logger/compare/v9.1.0...HEAD
+[Unreleased]: https://github.com/meltwater/mlabs-logger/compare/v9.1.1...HEAD
+[9.1.1]: https://github.com/meltwater/mlabs-logger/compare/v9.1.0...v9.1.1
 [9.1.0]: https://github.com/meltwater/mlabs-logger/compare/v9.0.0...v9.1.0
 [9.0.0]: https://github.com/meltwater/mlabs-logger/compare/v8.0.0...v9.0.0
 [8.0.0]: https://github.com/meltwater/mlabs-logger/compare/v7.0.1...v8.0.0
