@@ -30,6 +30,9 @@ To use the production logger, do not set `outputMode`, `t`, or `noop`.
     - `base`: Properties to add to the base logger.
       Will be merged with the default ones added by Pino.
       Default: no extra properties.
+    - `useAsync` (*boolean*): Use the pino destination with `sync: false`.
+      Overrides `createDestination` below. Only used in production.
+      Default: `false`.
     - `createDestination` (*function*): Function that returns a valid
       pino [destination parameter] to use in production.
       If null, this options will be ignored.

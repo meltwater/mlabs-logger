@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [9.1.0] / 2022-02-14
+
+### Added
+
+- `useAsync` option.
+  - Defaults to `false` which was the default behavior
+    for previous versions of both this library and Pino.
+  - If you were using `useExtreme` in version 8 or earlier,
+    you can use `useAsync` as a replacement for extreme mode.
+
 ## [9.0.0] / 2022-02-14
 
 ### Changed
