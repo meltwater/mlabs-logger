@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [9.0.0] / 2022-02-14
+
+### Changed
+
+- Update to Pino version 7.
+
+### Removed
+
+- `useExtreme` option since extreme mode was removed from Pino.
+
 ## [8.0.0] / 2020-12-24
 
 ### Added
@@ -296,7 +306,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 [makenew-node-lib]: https://github.com/meltwater/makenew-node-lib
 [Pino]: https://github.com/pinojs/pino
 
-[Unreleased]: https://github.com/meltwater/mlabs-logger/compare/v8.0.0...HEAD
+[Unreleased]: https://github.com/meltwater/mlabs-logger/compare/v9.0.0...HEAD
+[9.0.0]: https://github.com/meltwater/mlabs-logger/compare/v8.0.0...v9.0.0
 [8.0.0]: https://github.com/meltwater/mlabs-logger/compare/v7.0.1...v8.0.0
 [7.0.1]: https://github.com/meltwater/mlabs-logger/compare/v7.0.0...v7.0.1
 [7.0.0]: https://github.com/meltwater/mlabs-logger/compare/v6.1.1...v7.0.0
