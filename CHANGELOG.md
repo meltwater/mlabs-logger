@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 ### Removed
 
 - `useExtreme` option since extreme mode was removed from Pino.
+- `extreme` reexport since it was removed from Pino.
 
 ## [8.0.0] / 2020-12-24
 
